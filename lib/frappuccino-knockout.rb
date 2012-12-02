@@ -2,6 +2,7 @@ require "frappuccino-knockout/version"
 
 module Frappuccino
   module Knockout
-    # Your code goes here...
+    class Engine < ::Rails::Engine
+    end
   end
 end
