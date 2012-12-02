@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = Frappuccino::Knockout::VERSION
   gem.authors       = ["Daniel Kwan"]
   gem.email         = ["dklon985@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Frappuccino knockout.js binder}
+  gem.summary       = %q{knockout.js binder for Frappuccino applications}
+  gem.homepage      = "https://github.com/dklon/frappuccino-knockout"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
